@@ -1,0 +1,1341 @@
+2026-04-21 16:17:09,713 [INFO] __main__: ============================================================
+2026-04-21 16:17:09,713 [INFO] __main__:   Quant Trading Engine Starting
+2026-04-21 16:17:09,714 [INFO] __main__:   Symbols: ['AAPL', 'MSFT', 'SPY', 'QQQ']
+2026-04-21 16:17:09,714 [INFO] __main__:   Warmup:  50 bars
+2026-04-21 16:17:09,714 [INFO] __main__: ============================================================
+2026-04-21 16:17:10,406 [INFO] __main__: Account equity: $100,000.00
+2026-04-21 16:17:10,417 [INFO] __main__: Loading historical data for warmup...
+2026-04-21 16:17:10,419 [INFO] src.data: Fetching 70 historical bars for ['AAPL', 'MSFT', 'SPY', 'QQQ']...
+2026-04-21 16:17:10,820 [WARNING] src.data:   AAPL: failed to load — 'list' object has no attribute 'df'
+2026-04-21 16:17:10,821 [WARNING] src.data:   MSFT: failed to load — 'No key MSFT was found.'
+2026-04-21 16:17:10,821 [WARNING] src.data:   SPY: failed to load — 'No key SPY was found.'
+2026-04-21 16:17:10,821 [WARNING] src.data:   QQQ: failed to load — 'No key QQQ was found.'
+2026-04-21 16:17:10,823 [INFO] __main__: Warmup complete. Bars loaded: {}
+2026-04-21 16:17:10,824 [INFO] __main__: Engine ready. Starting data stream...
+2026-04-21 16:17:11,538 [INFO] src.data: Starting WebSocket stream for ['AAPL', 'MSFT', 'SPY', 'QQQ']
+2026-04-21 16:22:15,658 [INFO] __main__: ============================================================
+2026-04-21 16:22:15,658 [INFO] __main__:   Quant Trading Engine Starting
+2026-04-21 16:22:15,658 [INFO] __main__:   Symbols: ['AAPL', 'MSFT', 'SPY', 'QQQ']
+2026-04-21 16:22:15,658 [INFO] __main__:   Warmup:  50 bars
+2026-04-21 16:22:15,658 [INFO] __main__: ============================================================
+2026-04-21 16:22:15,823 [INFO] __main__: Account equity: $100,000.00
+2026-04-21 16:22:15,823 [INFO] __main__: Loading historical data for warmup...
+2026-04-21 16:22:15,823 [INFO] src.data: Fetching historical bars for ['AAPL', 'MSFT', 'SPY', 'QQQ']...
+2026-04-21 16:22:16,065 [INFO] src.data:   AAPL: 70 bars loaded
+2026-04-21 16:22:16,237 [INFO] src.data:   MSFT: 70 bars loaded
+2026-04-21 16:22:16,364 [INFO] src.data:   SPY: 70 bars loaded
+2026-04-21 16:22:16,589 [INFO] src.data:   QQQ: 70 bars loaded
+2026-04-21 16:22:17,018 [INFO] __main__: Warmup complete. Bars loaded: {'AAPL': 70, 'MSFT': 70, 'SPY': 70, 'QQQ': 70}
+2026-04-21 16:22:17,018 [INFO] __main__: Engine ready. Starting data stream...
+2026-04-21 16:22:18,496 [INFO] __main__: API server running on http://0.0.0.0:8000
+2026-04-21 16:22:18,496 [INFO] src.data: Starting WebSocket stream for ['AAPL', 'MSFT', 'SPY', 'QQQ']
+2026-04-21 16:22:18,496 [INFO] alpaca.data.live.websocket: started data stream
+2026-04-21 16:22:18,496 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 16:22:18,496 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 16:22:18,665 [INFO] alpaca.data.live.websocket: connected to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 16:22:18,742 [INFO] alpaca.data.live.websocket: subscribed to bars: ['AAPL', 'MSFT', 'QQQ', 'SPY']
+2026-04-21 16:22:21,089 [INFO] api: WebSocket client connected. Total: 1
+2026-04-21 16:22:25,213 [INFO] api: WebSocket client disconnected
+2026-04-21 16:22:27,618 [INFO] api: WebSocket client connected. Total: 1
+2026-04-21 16:23:52,741 [INFO] api: WebSocket client disconnected
+2026-04-21 16:23:52,858 [INFO] __main__: Engine stopped.
+2026-04-21 16:24:02,898 [INFO] __main__: Engine stopped by user.
+2026-04-21 16:24:28,880 [INFO] __main__: ============================================================
+2026-04-21 16:24:28,880 [INFO] __main__:   Quant Trading Engine Starting
+2026-04-21 16:24:28,880 [INFO] __main__:   Symbols: ['AAPL', 'MSFT', 'SPY', 'QQQ']
+2026-04-21 16:24:28,880 [INFO] __main__:   Warmup:  50 bars
+2026-04-21 16:24:28,880 [INFO] __main__: ============================================================
+2026-04-21 16:24:29,007 [INFO] __main__: Account equity: $100,000.00
+2026-04-21 16:24:29,007 [INFO] __main__: Loading historical data for warmup...
+2026-04-21 16:24:29,007 [INFO] src.data: Fetching historical bars for ['AAPL', 'MSFT', 'SPY', 'QQQ']...
+2026-04-21 16:24:29,419 [INFO] src.data:   AAPL: 70 bars loaded
+2026-04-21 16:24:29,591 [INFO] src.data:   MSFT: 70 bars loaded
+2026-04-21 16:24:29,831 [INFO] src.data:   SPY: 70 bars loaded
+2026-04-21 16:24:30,068 [INFO] src.data:   QQQ: 70 bars loaded
+2026-04-21 16:24:30,298 [INFO] __main__: Warmup complete. Bars loaded: {'AAPL': 70, 'MSFT': 70, 'SPY': 70, 'QQQ': 70}
+2026-04-21 16:24:30,299 [INFO] __main__: Engine ready. Starting data stream...
+2026-04-21 16:24:31,725 [INFO] __main__: API server running on http://0.0.0.0:8000
+2026-04-21 16:24:31,725 [INFO] src.data: Starting WebSocket stream for ['AAPL', 'MSFT', 'SPY', 'QQQ']
+2026-04-21 16:24:31,725 [INFO] alpaca.data.live.websocket: started data stream
+2026-04-21 16:24:31,725 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 16:24:31,725 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 16:24:32,025 [INFO] alpaca.data.live.websocket: connected to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 16:24:32,126 [INFO] alpaca.data.live.websocket: subscribed to bars: ['AAPL', 'MSFT', 'QQQ', 'SPY']
+2026-04-21 16:24:33,328 [INFO] api: WebSocket client connected. Total: 1
+2026-04-21 16:24:34,645 [INFO] api: WebSocket client connected. Total: 2
+2026-04-21 16:24:54,659 [INFO] api: WebSocket client disconnected
+2026-04-21 16:41:40,643 [INFO] api: WebSocket client disconnected
+2026-04-21 18:58:42,058 [WARNING] alpaca.data.live.websocket: data websocket error, restarting connection: no close frame received or sent
+2026-04-21 18:58:42,098 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:42,110 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:42,585 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:42,875 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:42,892 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:42,965 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:43,241 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:43,250 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:43,441 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:43,517 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:43,569 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:43,645 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:43,662 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:43,732 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:43,780 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:43,800 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:43,818 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:43,859 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:43,867 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:43,911 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:43,946 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:43,958 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:43,962 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:43,978 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:43,992 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,001 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,058 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,106 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,126 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,152 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,165 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,165 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,178 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,186 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,186 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,208 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,219 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,219 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,243 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,255 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,267 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,320 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,326 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,328 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,330 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,334 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,337 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,344 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,348 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,348 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,351 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,351 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,353 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,355 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,355 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,355 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,357 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,357 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,357 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,447 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,449 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,449 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,457 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,461 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,465 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,469 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,471 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,471 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,475 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,477 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,477 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,495 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,498 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,500 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,508 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,510 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,510 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,519 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,525 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,529 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,533 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,537 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,541 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,546 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,553 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,561 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,571 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,579 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,579 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,594 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,599 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,603 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,610 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,613 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,617 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,617 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,621 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,623 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,632 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,637 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,641 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,643 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,645 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,646 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,646 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,648 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,648 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,650 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,650 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,652 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,652 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,654 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,654 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,654 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,656 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,656 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,658 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,660 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,665 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,669 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,671 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,671 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,671 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,673 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,673 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,675 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,675 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,677 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,681 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,692 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,702 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,712 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,720 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,720 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,727 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,729 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:44,892 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:44,955 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:44,965 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:45,029 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:45,080 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:45,095 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:45,105 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:45,111 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:45,118 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:45,130 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:45,159 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:45,176 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:45,194 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:45,226 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:45,243 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:45,261 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:45,295 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:45,382 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:45,402 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:45,421 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:45,432 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:45,434 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:45,451 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:45,474 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:45,484 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:45,520 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:45,531 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:45,531 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:45,549 [ERROR] alpaca.data.live.websocket: error during websocket communication: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 134, in _start_ws
+    await self._connect()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 98, in _connect
+    self._ws = await websockets_legacy.connect(
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\websockets\legacy\client.py", line 650, in __await_impl__
+    _transport, protocol = await self._create_connection()
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1030, in create_connection
+    infos = await self._ensure_resolved(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1412, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 863, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\abhim\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-04-21 18:58:45,565 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-21 18:58:45,567 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:47,443 [INFO] alpaca.data.live.websocket: connected to wss://stream.data.alpaca.markets/v2/iex
+2026-04-21 18:58:47,531 [INFO] alpaca.data.live.websocket: subscribed to bars: ['AAPL', 'MSFT', 'QQQ', 'SPY']
+2026-04-21 18:58:48,535 [INFO] api: WebSocket client connected. Total: 1
+2026-04-21 18:58:49,981 [INFO] api: WebSocket client disconnected
+2026-04-21 19:07:55,485 [INFO] __main__: Engine stopped.
+2026-04-21 19:08:05,513 [INFO] __main__: Engine stopped by user.

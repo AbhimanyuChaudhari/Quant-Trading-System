@@ -1,0 +1,5 @@
+{
+  "env": {
+    "NEXT_PUBLIC_ENGINE_URL": "https://your-engine.railway.app"
+  }
+}
