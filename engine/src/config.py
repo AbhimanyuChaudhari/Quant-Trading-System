@@ -48,12 +48,12 @@ MR_EXIT_Z         = 0.5
 MR_BB_PERIOD      = 20
 MR_BB_STD         = 2.0
 
-MAX_POSITION_PCT  = 0.10      # 10% per position (lower since more stocks)
-MAX_PORTFOLIO_RISK= 0.01      # 1% risk per trade
+MAX_POSITION_PCT  = 0.05      # 10% per position (lower since more stocks)
+MAX_PORTFOLIO_RISK= 0.005      # 1% risk per trade
 STOP_LOSS_ATR     = 2.0
 TAKE_PROFIT_ATR   = 3.0
 MAX_DRAWDOWN_KILL = 0.10
-MAX_OPEN_POSITIONS= 5         # allow up to 5 positions across 20 stocks
+MAX_OPEN_POSITIONS= 20         # allow up to 5 positions across 20 stocks
 
 API_HOST          = os.getenv('API_HOST', '0.0.0.0')
 API_PORT          = int(os.getenv('API_PORT', '8000'))
