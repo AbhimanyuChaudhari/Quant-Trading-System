@@ -8,7 +8,7 @@ A fully deployed, end-to-end algorithmic trading system with a live paper tradin
 ![Render](https://img.shields.io/badge/Engine-Render-purple?style=flat-square)
 ![Vercel](https://img.shields.io/badge/Dashboard-Vercel-black?style=flat-square)
 
-**[Live Dashboard →](https://quant-trading-system-psi.vercel.app)**
+**[Live Dashboard →](https://quant-trading-system-amber.vercel.app/)**
 
 ---
 
