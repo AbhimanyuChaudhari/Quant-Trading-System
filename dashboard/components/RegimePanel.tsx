@@ -9,10 +9,10 @@ export function RegimePanel({ regimes, signals }: Props) {
   const symbols = Object.keys(regimes);
 
   return (
-    <div style={{ padding: '8px 0' }}>
+    <div style={{ overflowY: 'auto', maxHeight: '220px' }}>
       {symbols.length === 0 && (
-        <div style={{ padding: '12px 14px', color: 'var(--text-muted)', fontFamily: 'IBM Plex Mono', fontSize: 12 }}>
-          Waiting for data...
+        <div style={{ padding: '16px 14px', color: 'var(--text-muted)', fontFamily: 'IBM Plex Mono', fontSize: 11, textAlign: 'center' }}>
+          Generating signals after warmup...
         </div>
       )}
       {symbols.map(sym => {
@@ -22,69 +22,58 @@ export function RegimePanel({ regimes, signals }: Props) {
 
         return (
           <div key={sym} style={{
-            padding: '10px 14px',
+            padding: '8px 14px',
             borderBottom: '1px solid var(--border)',
             display: 'flex',
             alignItems: 'center',
-            gap: 10,
+            gap: 8,
           }}>
-            {/* Symbol */}
             <div style={{
-              fontFamily: 'IBM Plex Mono',
-              fontWeight: 600,
-              fontSize: 13,
-              width: 52,
-              color: 'var(--text-primary)',
+              fontFamily: 'IBM Plex Mono', fontWeight: 600,
+              fontSize: 12, width: 48, color: 'var(--text-primary)',
+              flexShrink: 0,
             }}>{sym}</div>
 
-            {/* Regime badge */}
-            <span className={`badge badge-${r.regime}`}>{r.regime}</span>
+            <span className={`badge badge-${r.regime}`}
+              style={{ fontSize: 9, padding: '1px 6px', flexShrink: 0 }}>
+              {r.regime}
+            </span>
 
-            {/* Direction */}
             <div style={{
-              fontFamily: 'IBM Plex Mono',
-              fontSize: 12,
+              fontFamily: 'IBM Plex Mono', fontSize: 11, width: 48,
               color: dir > 0 ? 'var(--green)' : dir < 0 ? 'var(--red)' : 'var(--text-muted)',
-              width: 40,
+              flexShrink: 0,
             }}>
-              {dir > 0 ? '▲ LONG' : dir < 0 ? '▼ SHORT' : '— FLAT'}
+              {dir > 0 ? '▲ L' : dir < 0 ? '▼ S' : '— F'}
             </div>
 
-            {/* ADX */}
-            <div style={{ flex: 1 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                <span style={{ color: 'var(--text-muted)', fontFamily: 'IBM Plex Mono', fontSize: 10 }}>ADX</span>
-                <div style={{
-                  flex: 1,
-                  height: 3,
-                  background: 'var(--bg-secondary)',
-                  borderRadius: 2,
-                  overflow: 'hidden',
-                }}>
-                  <div style={{
-                    height: '100%',
-                    width: `${Math.min(100, r.adx)}%`,
-                    background: r.adx > 25 ? 'var(--blue)' : 'var(--text-muted)',
-                    borderRadius: 2,
-                    transition: 'width 0.3s ease',
-                  }} />
-                </div>
-                <span style={{ color: 'var(--text-secondary)', fontFamily: 'IBM Plex Mono', fontSize: 11, width: 28 }}>
-                  {r.adx.toFixed(1)}
-                </span>
-              </div>
-            </div>
-
-            {/* Strategy */}
-            {sig && (
+            <div style={{ flex: 1, display: 'flex', alignItems: 'center', gap: 4 }}>
               <div style={{
-                fontFamily: 'IBM Plex Mono',
-                fontSize: 10,
-                color: 'var(--text-muted)',
-                textTransform: 'uppercase',
-                letterSpacing: '0.05em',
+                flex: 1, height: 3,
+                background: 'var(--bg-secondary)', borderRadius: 2, overflow: 'hidden',
               }}>
-                {sig.strategy}
+                <div style={{
+                  height: '100%',
+                  width: `${Math.min(100, r.adx)}%`,
+                  background: r.adx > 25 ? 'var(--blue)' : 'var(--text-muted)',
+                  borderRadius: 2, transition: 'width 0.3s ease',
+                }} />
+              </div>
+              <span style={{
+                color: 'var(--text-muted)', fontFamily: 'IBM Plex Mono',
+                fontSize: 10, width: 24, flexShrink: 0,
+              }}>
+                {r.adx.toFixed(0)}
+              </span>
+            </div>
+
+            {sig?.reason && (
+              <div style={{
+                fontFamily: 'IBM Plex Mono', fontSize: 10,
+                color: 'var(--text-muted)', maxWidth: 160,
+                overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+              }}>
+                {sig.reason}
               </div>
             )}
           </div>

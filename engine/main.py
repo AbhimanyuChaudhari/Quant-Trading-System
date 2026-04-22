@@ -173,7 +173,39 @@ async def startup():
     bars_loaded = {s: len(bar_store.get(s)) for s in SYMBOLS if bar_store.get(s) is not None}
     logger.info(f'Warmup complete. Bars loaded: {bars_loaded}')
 
-    # Register strategy callback
+    # Generate initial signals for ALL symbols right now
+    # This ensures dashboard shows signals immediately on startup
+    logger.info('Generating initial signals...')
+    for symbol in SYMBOLS:
+        if not bar_store.has_enough_data(symbol, WARMUP_BARS):
+            logger.debug(f'{symbol}: not enough warmup data, skipping')
+            continue
+        df = bar_store.get(symbol)
+        if df is None:
+            continue
+        try:
+            regime_result = detect_regime(df)
+            portfolio.update_regime(symbol, regime_to_dict(regime_result))
+
+            current_pos = execution.net_position(symbol)
+            if regime_result.regime == Regime.TRENDING:
+                sig = momentum_signal(df, symbol, current_pos)
+            elif regime_result.regime == Regime.RANGING:
+                sig = mean_reversion_signal(df, symbol, current_pos)
+            else:
+                from src.signals import _flat_signal
+                sig = _flat_signal(
+                    symbol,
+                    float(df['close'].iloc[-1]),
+                    'flat',
+                    'Volatile regime — no new trades'
+                )
+            portfolio.update_signal(symbol, signal_to_dict(sig))
+            logger.info(f'  {symbol}: regime={regime_result.regime.value} signal={sig.direction} ({sig.strategy})')
+        except Exception as e:
+            logger.warning(f'  {symbol}: initial signal failed — {e}')
+
+    # Register strategy callback for live bars
     stream.register_callback(on_new_bar)
     logger.info('Engine ready. Starting data stream...')
 

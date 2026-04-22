@@ -1339,3 +1339,217 @@ socket.gaierror: [Errno 11001] getaddrinfo failed
 2026-04-21 18:58:49,981 [INFO] api: WebSocket client disconnected
 2026-04-21 19:07:55,485 [INFO] __main__: Engine stopped.
 2026-04-21 19:08:05,513 [INFO] __main__: Engine stopped by user.
+2026-04-22 13:39:24,633 [INFO] __main__: ============================================================
+2026-04-22 13:39:24,634 [INFO] __main__:   Quant Trading Engine Starting
+2026-04-22 13:39:24,634 [INFO] __main__:   Symbols: ['AAPL', 'MSFT', 'NVDA', 'GOOGL', 'META', 'AMD', 'JPM', 'GS', 'BAC', 'SPY', 'QQQ', 'IWM', 'AMZN', 'TSLA', 'NFLX', 'XOM', 'CVX', 'JNJ', 'INTC', 'QCOM']
+2026-04-22 13:39:24,635 [INFO] __main__:   Warmup:  50 bars
+2026-04-22 13:39:24,635 [INFO] __main__: ============================================================
+2026-04-22 13:39:24,778 [INFO] __main__: Account equity: $99,920.45
+2026-04-22 13:39:24,778 [INFO] __main__: Loading historical data for warmup...
+2026-04-22 13:39:24,778 [INFO] src.data: Fetching historical bars for ['AAPL', 'MSFT', 'NVDA', 'GOOGL', 'META', 'AMD', 'JPM', 'GS', 'BAC', 'SPY', 'QQQ', 'IWM', 'AMZN', 'TSLA', 'NFLX', 'XOM', 'CVX', 'JNJ', 'INTC', 'QCOM']...
+2026-04-22 13:39:25,010 [INFO] src.data:   AAPL: 70 bars loaded
+2026-04-22 13:39:25,107 [INFO] src.data:   MSFT: 70 bars loaded
+2026-04-22 13:39:25,238 [INFO] src.data:   NVDA: 70 bars loaded
+2026-04-22 13:39:25,356 [INFO] src.data:   GOOGL: 70 bars loaded
+2026-04-22 13:39:25,456 [INFO] src.data:   META: 70 bars loaded
+2026-04-22 13:39:25,551 [INFO] src.data:   AMD: 70 bars loaded
+2026-04-22 13:39:25,682 [INFO] src.data:   JPM: 70 bars loaded
+2026-04-22 13:39:25,754 [INFO] src.data:   GS: 70 bars loaded
+2026-04-22 13:39:25,839 [INFO] src.data:   BAC: 70 bars loaded
+2026-04-22 13:39:25,969 [INFO] src.data:   SPY: 70 bars loaded
+2026-04-22 13:39:26,091 [INFO] src.data:   QQQ: 70 bars loaded
+2026-04-22 13:39:26,204 [INFO] src.data:   IWM: 70 bars loaded
+2026-04-22 13:39:26,312 [INFO] src.data:   AMZN: 70 bars loaded
+2026-04-22 13:39:26,420 [INFO] src.data:   TSLA: 70 bars loaded
+2026-04-22 13:39:26,518 [INFO] src.data:   NFLX: 70 bars loaded
+2026-04-22 13:39:26,645 [INFO] src.data:   XOM: 70 bars loaded
+2026-04-22 13:39:26,729 [INFO] src.data:   CVX: 70 bars loaded
+2026-04-22 13:39:26,779 [INFO] src.data:   JNJ: 70 bars loaded
+2026-04-22 13:39:26,877 [INFO] src.data:   INTC: 70 bars loaded
+2026-04-22 13:39:26,955 [INFO] src.data:   QCOM: 70 bars loaded
+2026-04-22 13:39:31,941 [INFO] __main__: Warmup complete. Bars loaded: {'AAPL': 70, 'MSFT': 70, 'NVDA': 70, 'GOOGL': 70, 'META': 70, 'AMD': 70, 'JPM': 70, 'GS': 70, 'BAC': 70, 'SPY': 70, 'QQQ': 70, 'IWM': 70, 'AMZN': 70, 'TSLA': 70, 'NFLX': 70, 'XOM': 70, 'CVX': 70, 'JNJ': 70, 'INTC': 70, 'QCOM': 70}
+2026-04-22 13:39:31,941 [INFO] __main__: Generating initial signals...
+2026-04-22 13:39:31,970 [INFO] __main__:   AAPL: regime=trending signal=1 (momentum)
+2026-04-22 13:39:31,978 [INFO] __main__:   MSFT: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,000 [INFO] __main__:   NVDA: regime=ranging signal=-1 (mean_reversion)
+2026-04-22 13:39:32,045 [INFO] __main__:   GOOGL: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,076 [INFO] __main__:   META: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,120 [INFO] __main__:   AMD: regime=trending signal=0 (momentum)
+2026-04-22 13:39:32,154 [INFO] __main__:   JPM: regime=trending signal=-1 (momentum)
+2026-04-22 13:39:32,181 [INFO] __main__:   GS: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,209 [INFO] __main__:   BAC: regime=trending signal=-1 (momentum)
+2026-04-22 13:39:32,236 [INFO] __main__:   SPY: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,260 [INFO] __main__:   QQQ: regime=ranging signal=-1 (mean_reversion)
+2026-04-22 13:39:32,275 [INFO] __main__:   IWM: regime=trending signal=-1 (momentum)
+2026-04-22 13:39:32,317 [INFO] __main__:   AMZN: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,331 [INFO] __main__:   TSLA: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,360 [INFO] __main__:   NFLX: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,380 [INFO] __main__:   XOM: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,397 [INFO] __main__:   CVX: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,420 [INFO] __main__:   JNJ: regime=trending signal=-1 (momentum)
+2026-04-22 13:39:32,434 [INFO] __main__:   INTC: regime=trending signal=-1 (momentum)
+2026-04-22 13:39:32,462 [INFO] __main__:   QCOM: regime=ranging signal=0 (mean_reversion)
+2026-04-22 13:39:32,468 [INFO] __main__: Engine ready. Starting data stream...
+2026-04-22 13:39:34,762 [INFO] __main__: API server running on http://0.0.0.0:8000
+2026-04-22 13:39:34,766 [INFO] src.data: Starting WebSocket stream for ['AAPL', 'MSFT', 'NVDA', 'GOOGL', 'META', 'AMD', 'JPM', 'GS', 'BAC', 'SPY', 'QQQ', 'IWM', 'AMZN', 'TSLA', 'NFLX', 'XOM', 'CVX', 'JNJ', 'INTC', 'QCOM']
+2026-04-22 13:39:34,766 [INFO] alpaca.data.live.websocket: started data stream
+2026-04-22 13:39:34,767 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:34,767 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:35,770 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:35,770 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:35,770 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:36,016 [INFO] api: WebSocket client connected. Total: 1
+2026-04-22 13:39:38,650 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:38,652 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:38,652 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:38,983 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:38,983 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:38,983 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:41,488 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:41,488 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:41,488 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:41,817 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:41,817 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:41,817 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:42,381 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:42,382 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:42,382 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:44,658 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:44,658 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:44,658 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:47,186 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:47,186 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:47,186 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:48,827 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:48,827 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:48,827 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:50,020 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:50,020 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:50,020 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:51,889 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:51,889 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:51,889 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:53,646 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:53,647 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:53,647 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:56,449 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:56,449 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:56,449 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:56,870 [ERROR] alpaca.data.live.websocket: error during websocket communication: connection limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 343, in _run_forever
+    await self._start_ws()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 135, in _start_ws
+    await self._auth()
+  File "C:\Users\abhim\OneDrive\Desktop\GitHub Repo Projects\Quant Trading System\engine\venv\lib\site-packages\alpaca\data\live\websocket.py", line 126, in _auth
+    raise ValueError(msg[0].get("msg", "auth failed"))
+ValueError: connection limit exceeded
+2026-04-22 13:39:56,870 [INFO] alpaca.data.live.websocket: starting data websocket connection
+2026-04-22 13:39:56,870 [INFO] alpaca.data.live.websocket: connecting to wss://stream.data.alpaca.markets/v2/iex
+2026-04-22 13:39:57,451 [INFO] api: WebSocket client disconnected
+2026-04-22 13:39:58,440 [INFO] __main__: Engine stopped.
+2026-04-22 13:40:06,874 [INFO] __main__: Engine stopped by user.
